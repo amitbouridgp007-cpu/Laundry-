@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border-sizing: border-box;
+}
+
+
+ul{
+    list-style: none; 
+    text-align: center;
+}
+
+li{
+    display: inline;
+    text-decoration-color: grey;
+    padding: 30px;  
+} 
+
+li>a{
+    display: inline;
+    text-decoration: none;
+    color: rgb(147, 158, 137);
+    font-size: 30px;
+    
+} 
+    /* If we want to remove the underline in links we do this li>a in this way   */
+
+.container{
+    display: inline-block;
+   color: rgb(96, 107, 89);
+   float: left;
+   padding: 0px;
+   font-size: 30px;
+   font-family: monospace;
+}
+/* we use padding in logo for internal spacing from the margin */
+/* When we have move the text in a same on navigation bar then we use float */
+
+.name{
+    display: block;
+    color:cornflowerblue;
+      float: right;
+}
+/* When we have move the text in a same on navigation bar then we use float */
+
+.hero-heading1{
+    /* display: block; */
+    margin-top: 200px;
+    padding-left: 100px;
+    color: grey;
+    font-size: 40px;
+    font-family: serif;
+}
+.hero-heading2{
+    margin-top: 0px;
+    padding-left: 100px;
+  color: grey;
+    font-size: 40px;
+    font-family: serif;
+}
+.highlight{
+    padding-left: 100px;
+    color: rgb(22, 108, 207); 
+    font-size: 40px;
+    font-family: serif;
+}
+/* padding-left is used for internal spacing from left side  */
+p{
+    padding-left: 100px;
+}
+
+img{
+   float: right;
+    margin-top: -270px;
+    
+}
+.book{
+    display: inline-block;
+    margin-top: 50px;
+    border: 5px solid rgb(45, 112, 199);
+    border-radius: 10px;
+    background-color: rgb(22, 108, 207);
+    font-size: 25px;
+  margin-left: 100px; /*padding-left is used for internal spacing from left side  */
+    color: white;
+    text-decoration-style: solid;
+    text-decoration: none;
+   
+}
